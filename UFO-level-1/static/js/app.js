@@ -32,13 +32,6 @@ var form = d3.select('form');
 
 // Create event handler 
 button.on("click", runEnter);
-form.addEventListener('keyup', function(event) {
-    if (event.keyCode === 13) {
-        runEnter
-    } else {
-        pass
-    }
-});
 
 // Complete the event handler function for the form
 function runEnter() {

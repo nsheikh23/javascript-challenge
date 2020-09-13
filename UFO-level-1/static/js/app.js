@@ -19,7 +19,6 @@ tableData.forEach((sighting) => {
         // Append a cell to the row for each value
         // in the weather report object
         var cell = row.append("td").text(value);
-
     });
 });
 
@@ -33,10 +32,17 @@ var form = d3.select('form');
 
 // Create event handler 
 button.on("click", runEnter);
+form.addEventListener('keyup', function(event) {
+    if (event.keyCode === 13) {
+        runEnter
+    } else {
+        pass
+    }
+});
 
 // Complete the event handler function for the form
 function runEnter() {
-
+    
     // Prevent the page from refreshing
     d3.event.preventDefault();
     
@@ -66,7 +72,6 @@ function runEnter() {
             // Append a cell to the row for each value
             // in the weather report object
             var cell = row.append("td").text(value);
-    
         });
     });
 }

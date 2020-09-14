@@ -24,6 +24,7 @@ tableData.forEach((sighting) => {
 
 // Select the button
 var button = d3.select('button');
+button.text('Filter Sightings')
 // console.log(button);
 
 // Select the form

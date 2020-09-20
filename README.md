@@ -18,11 +18,12 @@ You can handle this... right? The planet Earth needs to know what we have found!
 
 ### Level 2: Multiple Search Categories
 
-* Allowed the user to select from multiple search categories to filter down the results. Search categories include:
-** City
-** State
-** Country
-** Shape
+* Allowed the user to select from additional search categories to filter down the results. Search categories include:
+
+  1. `City`
+  2. `State`
+  3. `Country`
+  4. `Shape`
 
 ![Level 2](static/images/lvl2.JPG)
 - - -

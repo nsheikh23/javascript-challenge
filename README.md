@@ -10,7 +10,7 @@ That's why we are hiring you. We need you to write code that will create a table
 
 You can handle this... right? The planet Earth needs to know what we have found!
 
-![Dashboard]('static/images/lvl1.JPG')
+![Dashboard]('static/images/dashboard.JPG')
 
 ### Level 1: Automatic Table and Date Search
 

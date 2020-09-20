@@ -10,16 +10,21 @@ That's why we are hiring you. We need you to write code that will create a table
 
 You can handle this... right? The planet Earth needs to know what we have found!
 
-![Dashboard](static/images/Dashboard.JPG)
-
 ### Level 1: Automatic Table and Date Search
 
-* Used the UFO dataset provided in the form of an array of JavaScript objects, constructed a table to the web page that shows the numerous UFO sightings around the world.
+* Used the UFO dataset provided in the form of an array of JavaScript objects, constructed a table to the web page that shows the numerous UFO sightings around the world filtered by a date.
+
+![Level 1](static/images/lvl1.JPG)
 
 ### Level 2: Multiple Search Categories
 
-* Allowed the user to select from multiple search categories to filter down the results.
+* Allowed the user to select from multiple search categories to filter down the results. Search categories include:
+** City
+** State
+** Country
+** Shape
 
+![Level 2](static/images/lvl2.JPG)
 - - -
 
 ### Dataset

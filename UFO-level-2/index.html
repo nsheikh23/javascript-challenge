@@ -7,7 +7,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootswatch/3.3.7/superhero/bootstrap.min.css">
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
-  <link rel="stylesheet" href="static/css/style.css">
+  <link rel="stylesheet" href="../static/css/style.css">
 </head>
 
 <body>
@@ -16,7 +16,7 @@
       <div class="container-fluid">
         <div class="navbar-header">
           <a class="navbar-brand" href="index.html">UFO Sightings
-            <img class="nav-ufo" src="static/images/ufo.svg">
+            <img class="nav-ufo" src="../static/images/ufo.svg">
           </a>
         </div>
       </div>
@@ -35,10 +35,26 @@
                 <form>
                   <div class="form-group">
                     <ul class="list-group" id="filters">
+                      <select name="dropdown" id="dropdown">
+                        <option value="selection">Select filter...</option>
+                        <option value="date">Date</option>
+                        <option value="city">City</option>
+                        <option value="state">State</option>
+                        <option value="country">Country</option>
+                        <option value="shape">Shape</option>
+                      </select>
                       <li class="filter list-group-item">
-                        <label for="date">Enter a Date</label>
-                        <input class="form-control" id="datetime" type="text" placeholder="1/11/2011">
+                        <label for="criteria">Enter Criteria Below:</label>
+                        <input class="form-control" id="criteria" type="text">
                       </li>
+                      <!-- <label for="Doubledropdown">Multi-filter?</label>
+                      <select name="Doubledropdown" id="Doubledropdown">
+                        <option value="date">Date</option>
+                        <option value="city">City</option>
+                        <option value="state">State</option>
+                        <option value="country">Country</option>
+                        <option value="shape">Shape</option>
+                      </select> -->
                     </ul>
                   </div>
                   <button id="filter-btn" type="button" class="btn btn-default">Filter Table</button>
@@ -72,8 +88,8 @@
     </footer>
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
-  <script src="static/js/data.js"></script>
-  <script src="static/js/app.js"></script>
+  <script src="../static/js/data.js"></script>
+  <script src="../static/js/app.js"></script>
 </body>
 
 </html>
